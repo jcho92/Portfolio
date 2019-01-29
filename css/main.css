@@ -44,7 +44,7 @@ li.header{
 
 li.header:hover {
     background-color:#fff;
-    color: #050505;
+    color: #444444;
 }
 
 .header_name{
@@ -54,19 +54,23 @@ li.header:hover {
 
 a.heading{
     text-decoration: none;
-    color: #fff333;
+  
 }
 
 li.Name{
     float:left;
     padding: 18px 55px;
     color: #ffffff;
-    background-color: #050505;
+    background-color: #444444;
     font-size: 24px;
     font-weight: bold;
 }
+li.Name:hover{
+    background-color:#fff;
+    color: #444444;
+}
 div.header{
-    background-color: #050505; 
+    background-color: #444444; 
     border-bottom: 1px solid #cccccc;
     position: fixed;
     width: 100%;
@@ -465,7 +469,7 @@ td{
         }
 
         div.header {
-            background-color: #050505;
+            background-color: #444444;
             padding: 0;
             border-bottom: 1px solid #cccccc;
            
