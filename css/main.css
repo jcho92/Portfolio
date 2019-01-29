@@ -243,45 +243,7 @@ span.cat-table{
     border: 1px black solid;
     width: 100%;
 }
-.check{
-    color:darkgreen;
-}
-td{
-    border: #000 solid 1px;
 
-}
-.project-demo{
-    padding: 10px;
-    font-size: 15px;
-}
-.left-demo{
-    float: left;
-    overflow:auto;
-    width: 40%;
-    height: 200px
-}
-.right-demo{
-    float:right;
-    overflow:auto;
-    width: 60%;
-    height: 200px;
-}
-.gitlink{
-    padding-left: 40px;
-    font-size: 30px;
-    margin: 10px 0;
-}
-.gitA{
-    color: #000000;
-    padding-left: 40px;
-   
-    font-size: 25px;
-
-  
-}
-.gitA:hover{
-    color: lightblue;
-}
 .contact{
     color: #000000;
 }
@@ -330,7 +292,7 @@ td{
 #get-started .feature-block {
     background: #fff none repeat scroll 0 0;
     padding: 30px 20px;
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
   }
     #get-started .feature-block {
       margin-bottom: 30px;
@@ -339,7 +301,7 @@ td{
   
   #get-started .feature-block:hover {
     box-shadow: 0 0 35px rgba(0, 0, 0);
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
   }
   
   #get-started .feature-block h4 {
@@ -513,41 +475,7 @@ td{
         border-radius: 15px;
         color: #000;
     }
-    .left-demo{
-        float: none;
-        overflow:auto;
-        width: 100%;
-        padding: 10px 0;
-        height: 100%;
-    }
-    .right-demo{
-        float:none;
-        overflow:auto;
-        width: 100%;
-        padding: 10px 0; 
-        height: 100%;     
-    }
-    td{
-        display: block;
-    }
-    tr{
-        display: inline;
-        width: 50%;
-        float: left;
-    }
-    .gitlink{
-        padding-left: 0px;
-        font-size: 20px;
-        margin: 10px 0;
-    }
-    .gitA{
-        color: #000000;
-        padding-left: 0px;
-       
-        font-size: 15px;
-       
-      
-    }
+    
     .typewriter {
         white-space: normal;
        
