@@ -7,6 +7,7 @@ body{
 
 	background-color:#000;
 }
+
 #overlay{
     background-color: rgba(0,0,0,0.5);
     position:fixed;
@@ -21,9 +22,10 @@ body{
     padding: 80px 0px 0px 0px;
     left:0;
     top: 0;
-    
 }
-
+.about{
+    height: 300px;
+}
 ul.nav-bar{
     list-style-type: none;
     margin: 0;
@@ -152,10 +154,21 @@ div.innerbody{
    
     
 }
-
-
-
-
+.git{
+    background-color: #444444;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.git p{
+        font-size: 30px;
+        color: #ffffff;
+}
 table.category {
     width: 660px;
     margin-left:auto;
@@ -203,6 +216,10 @@ span.cat-table{
     height: 50px;
     border-radius: 55px;
     
+}
+.description{
+    margin-top:100px;
+    padding:50px 0px;
 }
 
 /* scrolling css*/
@@ -297,7 +314,7 @@ span.cat-table{
     #get-started .feature-block {
       margin-bottom: 30px;
     }
-  }
+
   
   #get-started .feature-block:hover {
     box-shadow: 0 0 35px rgba(0, 0, 0);
