@@ -1,0 +1,114 @@
+
+body{
+    background: #444444;
+}
+#main{
+    text-align: center;
+    width: 100%;
+    display: none;
+    
+}
+#subMain{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid  antiquewhite;
+    margin-top:10%;
+    background: #444444;
+
+}
+#subStart{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid  antiquewhite;
+    margin-top:10%;
+    background: #444444;
+}
+#subFinished{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid  antiquewhite;
+    margin-top:10%;
+    background: #444444;
+    border-radius:30px;
+}
+#start{
+    text-align: center;
+    width: 100%;
+}
+button{
+    padding: 10px;
+    margin: 15px;
+    background:antiquewhite;
+    color: #444444;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background: #444444;
+    color: antiquewhite;
+}
+.answer{
+    font-size: 30px;
+    font-weight: bold;
+}
+#finished{
+    text-align:center;
+    width:100%;
+    display: none;
+}
+h2{
+    text-decoration: uppercase;
+    color: white
+}
+h1, p {
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+}
+#popup{
+    padding: 30px;
+}
+@media screen and (max-width: 800px){
+
+    #subMain{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid  antiquewhite;
+        margin-top:10%;
+        background: #8bdee0;
+        border-radius: 30px;
+    }
+    #subStart{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid  antiquewhite;
+        margin-top:10%;
+        background: #8bdee0;
+        border-radius: 30px;
+    }
+    #subFinished{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid  antiquewhite;
+        margin-top:10%;
+        background: #8bdee0;
+        border-radius:30px;
+    }
+    button{
+        padding: 10px;
+        margin: 15px auto;
+        background:#008CBA;
+        color: antiquewhite;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 10px;
+        display: block;
+    }
+}
