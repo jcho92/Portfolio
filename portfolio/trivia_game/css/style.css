@@ -1,6 +1,6 @@
 
 body{
-    background: #444444;
+    background: #278082;
 }
 #main{
     text-align: center;
@@ -14,8 +14,8 @@ body{
     margin: 0 auto;
     border: 2px solid  antiquewhite;
     margin-top:10%;
-    background: #444444;
-
+    background: #8bdee0;
+    border-radius: 30px;
 }
 #subStart{
     width: 900px;
@@ -23,15 +23,16 @@ body{
     margin: 0 auto;
     border: 2px solid  antiquewhite;
     margin-top:10%;
-    background: #444444;
+    background: #8bdee0;
+    border-radius: 30px;
 }
 #subFinished{
-    width: 900px;
+    width: 800px;
     text-align: center;
     margin: 0 auto;
     border: 2px solid  antiquewhite;
     margin-top:10%;
-    background: #444444;
+    background: #8bdee0;
     border-radius:30px;
 }
 #start{
@@ -41,16 +42,16 @@ body{
 button{
     padding: 10px;
     margin: 15px;
-    background:antiquewhite;
-    color: #444444;
+    background:#008CBA;
+    color: antiquewhite;
     font-size: 15px;
     font-weight: bold;
     border-radius: 10px;
     
 }
 button:hover{
-    background: #444444;
-    color: antiquewhite;
+    background: antiquewhite;
+    color: #008CBA
 }
 .answer{
     font-size: 30px;
