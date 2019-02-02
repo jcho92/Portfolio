@@ -9,7 +9,8 @@
 
     <link rel="stylesheet" type="text/css" href="../../css/main.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
     <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
@@ -40,44 +41,97 @@
         </ul>
     </div>
 
+    <div class="git">
+        <p class="gitlink">Github link</p>
+        <a class="gitA" href="https://github.com/jcho92/Trivia_game">https://github.com/jcho92/Trivia_game</a>
+
+        <p class="gitlink">github demo link</p>
+        <a class="gitA" href="https://jcho92.github.io/Trivia_game/">https://jcho92.github.io/Trivia_game/</a>
+
+    </div>
+
     <body>
-        <div class="git">
-            <p class="gitlink">Github link</p>
-            <a class="gitA" href="https://github.com/jcho92/Trivia_game">https://github.com/jcho92/Trivia_game</a>
-
-            <p class="gitlink">github demo link</p>
-            <a class="gitA" href="https://jcho92.github.io/Trivia_game/">https://jcho92.github.io/Trivia_game/</a>
-
+        <div id="header">
+            <div id="header-box">
+                <p id="status"></p>
+                <h2>players:</h2>
+                <p id="statusID"></p>
+                <button id="start" onclick="start()">press start to play</button>
+            </div>
         </div>
-        
+
 
         <div class="container">
-            <div id="display"></div>
-            <div id="character"></div>
-            <div class="combat">
-                <div id="playerCharacter">
-                    <p> your character</p>
+            <div class="interface">
+                <div id="playerOneInterface">
+                    <div class="userinput">
+                        <p>Enter your name to start</p>
+                        <form>
+                            <input type="text" id="player1">
+                            <input type="submit" id="addUser1" value="submit">
+                        </form>
+                    </div>
+
+                    <div class="userinterface">
+                        <h2>Rock Paper scissors!</h2>
+                        <p id="p1choice"></p>
+                        <button id="rock" onclick="rock1()">rock</button>
+                        <button id="paper" onclick="paper1()">paper</button>
+                        <button id="siccors" onclick="scissors1()">scissors</button>
+                        <p id="p1chat"></p>
+                        <p id="p1message"></p>
+                        <form id="chatform1">
+                            <input type="text" id="chatuser1">
+                            <input type="submit" id="chatsubmit1" value="message">
+                        </form>
+                    </div>
                 </div>
 
-                <div id="enemyCharacter">
-                    <p>your enemy</p>
+                <div id="playerTwoInterface">
+                    <div class="userinput">
+                        <p>Enter your name to start</p>
+                        <form>
+                            <input type="text" id="player2">
+                            <input type="submit" id="addUser2" value="submit">
+                        </form>
+                    </div>
+
+                    <div class="userinterface">
+                        <h2>Rock Paper scissors!</h2>
+                        <p id="p2choice"></p>
+                        <button id="rock" onclick="rock2()">rock</button>
+                        <button id="paper" onclick="paper2()">paper</button>
+                        <button id="siccors" onclick="scissors2();">scissors</button>
+                        <p id="p2chat"></p>
+
+                        <p id="p2message"></p>
+                        <form id="chatform2">
+                            <input type="text" id="chatuser2">
+                            <input type="submit" id="chatsubmit2" value="message">
+                        </form>
+                    </div>
                 </div>
             </div>
+            <div id="mutualdisplay">
 
-            <div class="fight">
-                <p class="fire">Fire the Deathstar</p>
-                <button type="submit" id="fight"><img class="button" src="assets/13683798801623052978death-star-1st-icon-md.png"></button>
+                <div>
+                    <h2 id="winner">Who won?</h2>
+                </div>
+                <p id="playernameone">player name </p><span id="p1wins"></span>
+                <p id="playernametwo">player name </p><span id="p2wins"></span>
+
             </div>
 
-            <div class="restart">
-                <button type="submit" id="restart">
-                    <p class="reset">reset</p>
-                </button>
+
+
+
+            <div class="reset">
+                <button onclick="remove()">reset</button>
             </div>
-        </div>
+            <script src="main.js">
+
+            </script>
     </body>
-
-    <script src="js/main.js"> </script>
 
 
 </html>
