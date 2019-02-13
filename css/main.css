@@ -165,9 +165,15 @@ div.innerbody{
     margin-top: 100px;
     margin-bottom: 30px;
 }
-.git p{
+.gitA{
+    font-size:18px;
+    color: #0078ff;
+    margin: 0 25px;
+}
+.gitlink{
         font-size: 30px;
         color: #ffffff;
+        margin: 0 25px;
 }
 table.category {
     width: 660px;
@@ -359,6 +365,11 @@ span.cat-table{
   
   #features .feature-block p {
     margin-bottom: 0;
+  }
+  .project-description{
+      font-size: 18px !important;
+      color: #ffffff;
+      margin:25px;
   }
   
 
