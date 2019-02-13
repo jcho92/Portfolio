@@ -125,3 +125,6 @@
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
+.tech-logo{
+  height: 50px;
+}
